@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="2" time="3.837" timestamp="2026-10-19T18:15:30.013824+05:30" hostname="GGN-MAC-11758"><testcase classname="tests.api.test_single_bet_placement.TestSingleBetPlacementApi" name="test_tp_01_place_valid_single_bet_debits_balance" time="2.028"><failure message="AssertionError: assert 'USD' == 'EUR'&#10;  &#10;  - EUR&#10;  + USD">E   AssertionError: assert 'USD' == 'EUR'
+      
+      - EUR
+      + USD</failure></testcase><testcase classname="tests.api.test_single_bet_placement.TestSingleBetPlacementApi" name="test_tp_02_stake_above_balance_is_rejected" time="1.796"><failure message="AssertionError: Expected error 'insufficient_balance', got {'error': 'invalid_stake_max', 'message': 'Stake must be at most 100.00.'}&#10;assert 'invalid_stake_max' == 'insufficient_balance'&#10;  &#10;  - insufficient_balance&#10;  + invalid_stake_max">E   AssertionError: Expected error 'insufficient_balance', got {'error': 'invalid_stake_max', 'message': 'Stake must be at most 100.00.'}
+    assert 'invalid_stake_max' == 'insufficient_balance'
+      
+      - insufficient_balance
+      + invalid_stake_max</failure></testcase></testsuite></testsuites>
